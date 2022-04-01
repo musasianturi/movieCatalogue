@@ -6,7 +6,7 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.githubuser.moviecatalogue.R
 
-object ImageHelper {
+object  ImageHelper {
     fun loadImage(context: Context, imageSource: String?, imageView: ImageView) {
 
         Glide.with(context)

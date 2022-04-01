@@ -29,7 +29,7 @@ data class TvEntity(
     var tagline: String = "",
 
     @ColumnInfo(name = "poster_path")
-    var poster_path: String = "",
+    var poster_path: String? = null,
 
     @ColumnInfo(name = "backdrop_path")
     val backdropPath: String? = "",
